@@ -1,0 +1,40 @@
+nz-card {
+  border-top: none;
+  border-left: none;
+  border-right: none;
+
+  .header {
+    .left {
+      display: flex;
+      flex-direction: row;
+
+      nz-avatar {
+        margin-right: 24px;
+      }
+
+      .desc {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+
+        h4,
+        p {
+          margin-bottom: 0;
+        }
+      }
+    }
+
+    .right {
+      .statistic {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        align-items: center;
+
+        nz-statistic {
+          margin: 0 12px;
+        }
+      }
+    }
+  }
+}

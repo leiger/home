@@ -1,0 +1,29 @@
+<nz-card>
+  <div nz-row nzJustify="space-between" nzAlign="middle" class="header">
+    <div class="left" nz-col nzMd="12">
+      <nz-avatar [nzSize]="64" nzIcon="user"></nz-avatar>
+      <div class="desc">
+        <h4 nz-typography>测试姓名</h4>
+        <p nz-typography>描述描述描述描述描述描述描述</p>
+      </div>
+    </div>
+    <div class="right" nz-col nzMd="12">
+      <div class="statistic">
+        <nz-statistic
+          [nzValue]="(123 | number)!"
+          [nzTitle]="'Active Users'"
+        ></nz-statistic>
+        <nz-divider nzType="vertical"></nz-divider>
+        <nz-statistic
+          [nzValue]="(234 | number)!"
+          [nzTitle]="'Active Users'"
+        ></nz-statistic>
+        <nz-divider nzType="vertical"></nz-divider>
+        <nz-statistic
+          [nzValue]="(1949101 | number)!"
+          [nzTitle]="'Active Users'"
+        ></nz-statistic>
+      </div>
+    </div>
+  </div>
+</nz-card>
